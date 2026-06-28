@@ -5,7 +5,7 @@ flake8>=6.0.0          # Linting for generated code
 
 # Development
 black>=23.0.0          # Code formatting
-rich>=13.0.0           # Rich terminal output (used by generated code)
+rich>=15.0.0           # Rich terminal output (used by generated code)
 gitpython>=3.1.0       # Git operations
 
 # Utilities
