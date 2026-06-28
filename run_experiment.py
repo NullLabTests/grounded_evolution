@@ -21,7 +21,6 @@ Conditions:
 
 import json
 import os
-import shutil
 import sys
 import time
 from pathlib import Path
@@ -186,7 +185,7 @@ def main() -> None:
     cycles: int = args.cycles or (10 if args.quick else CYCLES_DEFAULT)
     benchmarks = get_benchmarks()
 
-    print(f"Experiment Runner")
+    print("Experiment Runner")
     print(f"  Conditions: {len(ABLATION_CONDITIONS)}")
     print(f"  Benchmarks: {len(benchmarks)}")
     print(f"  Cycles/condition: {cycles}")

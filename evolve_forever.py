@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Aggressive auto-evolution: inject 100s of signals, keep champion at ceiling."""
-import os, re, sys, random, subprocess, time
-from datetime import datetime
+import os
+import re
+import sys
+import random
+import subprocess
+import time
 
 CYCLES = int(sys.argv[1]) if len(sys.argv) > 1 else 200
 INJECT_EVERY = 3
